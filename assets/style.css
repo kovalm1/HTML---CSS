@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+/* Це якщо font завантажений на пк
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto/Roboto-Medium.ttf) format("truetype");
+}*/
+
+/*
+class logo
+class menu-list
+class menu-item
+class first-screen
+class main-title
+class main-description
+class second-screen
+class description-title
+class description-block
+*/
+
+
+/* General styles */
+
+body {
+    font-family: "Montserrat";
+    font-size: 1em;
+}
+
+/* Header styles */
+
+.logo {}
+
+.menu-list {}
+
+.menu-item {
+    font-weight: 400;
+    font-size: 1.125em;
+}
+
+.blue-button {
+    background-color: #7AE5FD;
+}
+
+/* First screen */
+.first-screen {
+    background-image: url('./images/firstscreenimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+}
+
+.main-title {
+    font-weight: 800;
+    font-size: 4.06em;
+}
+
+.main-description {
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+/*second-screen description-title*/
+.description-main-title {
+    font-weight: 400;
+    font-size: 3.75em;
+}
+
+.description-main-title2 {
+    font-weight: 400;
+    font-size: 1.69em;
+}
+
+.description-main-title3 {
+    color: #73A6B1;
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+
+/*second-screen description-block*/
+.description-block {
+    background-image: url('./images/block.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50vh;
+    /*background-color: #F1FDFF;*/
+}
+
+.description-block-title {
+    font-weight: 400;
+    font-size: 2.87em;
+}
+
+.description-block-title2 {
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.description-block-title3 {
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+/*second-screen description-block2*/
+.description-block2 {
+    background-image: url('./images/block2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50vh;
+    /*background-color: #F1FDFF;*/
+}
+
+.description-block2-title {
+    font-weight: 400;
+    font-size: 2.87em;
+}
+
+.description-block2-title2 {
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.description-block2-title3 {
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+/*second-screen description-block3*/
+.description-block3 {
+    background-image: url('./images/block3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50vh;
+    /*background-color: #F1FDFF;*/
+}
+
+.description-block3-title {
+    font-weight: 400;
+    font-size: 2.87em;
+}
+
+.description-block3-title2 {
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.description-block3-title3 {
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+.description-block3-button{
+    background-color: #7AE5FD;
+}
